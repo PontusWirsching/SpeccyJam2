@@ -8,7 +8,10 @@ import com.lss.flasher.StateHandler.StateHandler;
 
 public class Start extends LEngine {
 
-	Graphics G;
+	Graphics gs;
+	
+	public static final int WIDTHIMAGE = 256;
+	public static final int HEIGHTIMAGE = 192;
 	
 	
 	public Start(int width, int height, String frameName) {
@@ -28,9 +31,13 @@ public class Start extends LEngine {
 
 	@Override
 	public void render() {
-		BufferedImage image = new BufferedImage(256,192, BufferedImage.TYPE_INT_RGB);
-		G = image.getGraphics();
-		StateHandler.render(G);
+		BufferedImage image = new BufferedImage(WIDTHIMAGE, HEIGHTIMAGE, BufferedImage.TYPE_INT_RGB);
+		gs = image.getGraphics();
+		StateHandler.render(gs);
+		// Render Under
+		
+		
+		// Before
 		g.drawImage(image, 0, 0, WIDTH, HEIGHT, null);
 	}
 
