@@ -10,6 +10,8 @@ public class Start extends LEngine {
 
 	Graphics G;
 	
+	// Hello
+	
 	public Start(int width, int height, String frameName) {
 		super(width, height, frameName);
 		
