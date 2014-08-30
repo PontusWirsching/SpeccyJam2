@@ -8,6 +8,27 @@ import com.lss.flasher.StateHandler.StateHandler;
 
 public class Start extends LEngine {
 
+	
+	/*
+	 * Todo list:
+	 * 
+	 * Add a menu
+	 * Add a sprite sheet loading system.
+	 * Add a Level system with a level handler and stuff.
+	 * Add a entity system that everything will extend to: player, aliens, ufo, rocks, grass etc.
+	 * Make the player movement
+	 * Make ufo and alien AI
+	 * Add level loading, level editor for the game??
+	 * Score system?
+	 * Multiplayer / local co-op?
+	 * Add grass and rocks.
+	 * Add sprint and health bars.
+	 * Add powerups.
+	 * 
+	 * 
+	 */
+	
+	
 	Graphics gs;
 	
 	public static final int WIDTHIMAGE = 256;
