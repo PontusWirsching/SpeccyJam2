@@ -13,7 +13,7 @@ public class Start extends LEngine {
 	 * Todo list:
 	 * 
 	 * DONE - Add a menu
-	 * Add a sprite sheet loading system.
+	 * DONE - Add a sprite sheet loading system.
 	 * Add a Level system with a level handler and stuff.
 	 * Add an entity system that everything will extend to: player, aliens, ufo, rocks, grass etc.
 	 * Make the player movement
