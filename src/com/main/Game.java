@@ -7,6 +7,11 @@ import com.lss.flasher.StateHandler.State;
 @SuppressWarnings("serial")
 public class Game extends State {
 
+	
+	
+	public int level = 0;
+	
+	
 	public Game(String name) {
 		super(name);
 	}
